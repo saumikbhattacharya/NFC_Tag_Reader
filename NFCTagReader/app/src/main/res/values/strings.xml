@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NFC Tag Reader</string>
+    <string name="action_settings">Settings</string>
+    <string name="read_nfc">Read Data</string>
+</resources>
