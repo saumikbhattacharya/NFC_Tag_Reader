@@ -80,38 +80,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        TableLayout tableLayout = new TableLayout(this);
-        tableLayout.setStretchAllColumns(true);
-        tableLayout.setGravity(Gravity.CENTER_HORIZONTAL);
-        TableLayout.LayoutParams layoutParams = new TableLayout.LayoutParams(TableLayout.LayoutParams.WRAP_CONTENT,TableLayout.LayoutParams.WRAP_CONTENT);
-        tableLayout.setVerticalScrollBarEnabled(true);
-        tableLayout.setLayoutParams(layoutParams);
-
-        TableRow tableRow = new TableRow(this);
-
-        ImageButton imageButton = new ImageButton(this);
-        ImageButton imageButton1 = new ImageButton(this);
-        ImageButton imageButton2 = new ImageButton(this);
-
-        tableRow.addView(imageButton);
-        tableRow.addView(imageButton1);
-        tableRow.addView(imageButton2);
-
-        tableLayout.addView(tableRow);
-
-        TableRow tableRow1 = new TableRow(this);
-        tableRow1.setPadding(0, 0, 0, 40);
-        TableRow.LayoutParams params = new TableRow.LayoutParams();
-        params.span = 1;
-
-        ImageButton imageButton3 = new ImageButton(this);
-
-        tableRow1.addView(imageButton3);
-
-        tableLayout.addView(tableRow1);
-
-        linearLayout.addView(tableLayout);
-
     }
 
     @Override
